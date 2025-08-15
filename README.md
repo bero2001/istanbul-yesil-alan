@@ -41,9 +41,9 @@ python -m venv .venv
 pip install -r requirements.txt
 cp .env.example .env
 
-MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster0.xxxxx.mongodb.net/DBNAME?retryWrites=true&w=majority
-DB_NAME=Project0
-COLLECTION_NAME=yesil_alan_verisi
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/<dbname>
+
+
 
 uvicorn backend.fastapi_backend.main:app --reload
 Tarayıcıdan http://127.0.0.1:8000/docs adresine giderek API uç noktalarını görebilirsiniz.
