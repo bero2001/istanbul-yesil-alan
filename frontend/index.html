@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>İstanbul Kentsel Açık ve Yeşil Alan</title>
+  <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="legend">
+    <h4>Renk Skalası (Kişi Başı Yeşil Alan)</h4>
+    <div><span style="background:#cccccc"></span> 0 - 2 m²</div>
+    <div><span style="background:#ffff00"></span> 2 - 5 m²</div>
+    <div><span style="background:#90ee90"></span> 5 - 10 m²</div>
+    <div><span style="background:#006400"></span> 10+ m²</div>
+  </div>
+
+  <div id="barChartContainer">
+  <canvas id="barChart"></canvas>
+</div>
+
+  <div id="loading"><div class="spinner"></div></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- Proje harita arayüzü -->

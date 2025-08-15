@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+pymongo
+geopandas
+pandas
+shapely
+
+💡 Açıklama:
+
+fastapi → API framework’ün.
+
+uvicorn[standard] → FastAPI’yi çalıştıran ASGI server.
+
+pydantic → models.py’de veri modelleri için.
+
+python-dotenv → .env dosyasını okumak için.
+
+pymongo → MongoDB bağlantısı için.
+
+geopandas → GeoJSON verilerini okumak ve işlemek için.
+
+pandas → Veri çerçevesi işlemleri için.
+
+shapely → Geometrik hesaplamalar (kesişim, alan vb.) için.

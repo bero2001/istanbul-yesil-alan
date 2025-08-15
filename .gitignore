@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env dosyaları (gizli bilgiler)
+.env
+
+# OS / IDE dosyaları
+.DS_Store
+.vscode/
+
